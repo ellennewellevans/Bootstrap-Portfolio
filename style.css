@@ -7,17 +7,32 @@ body {
     width: 100%;
     padding-right: 20%;
     padding-left: 20%;
-    margin-right: auto;
-    margin-left: auto;
-    border-color: #cccccc;
-    background-color: #ffffff;
 }
 
-.namebox {
+.maincontent {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+.navbar-brand {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    display: block;
+    font-size: 24pt;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .navbar {
     margin-bottom: 20px;
+    width: 100%;
+    border-color: #cccccc;
+    background-color: #ffffff;
 }
