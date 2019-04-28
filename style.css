@@ -2,6 +2,7 @@ a:not([href]):not([tabindex]) {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
 }
 
 body {
@@ -32,6 +33,16 @@ h1 {
     color:#ffffff;
 }
 
+h2 {
+    flex: initial;
+    color:#4aaa;
+    font-size: 36.6px;
+    padding-left: 75px;
+    padding-right: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
 img {
     padding: 20px;
 }
@@ -42,9 +53,12 @@ img {
     margin: 0 auto;
     padding-bottom: 20px;
     border: 1px solid #cccccc;
+    padding-bottom: 200px;
+}
+
+.maincontent2 {
     display: flex;
     align-items: flex-start;
-    padding-bottom: 200px;
 }
 
 .navbar-brand {
@@ -61,6 +75,9 @@ img {
     font-weight: bold;
     padding-right: 25px;
     padding-left: 25px;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar {
@@ -78,4 +95,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 200px;
+}
+
+ul {
+    margin-right: 80px;
 }
