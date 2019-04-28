@@ -5,8 +5,25 @@ body {
 
 .container {
     width: 100%;
-    padding-right: 20%;
-    padding-left: 20%;
+}
+
+footer {
+    background-color: #666666;
+    margin-top: 50px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  
+  .footertext{
+    color: #cccccc;
+    text-align: center;
+    font-size: 70%;
+    padding-bottom: 5px;
+  }
+.imagetext {
+    display: flex;
+    align-items: flex-start; 
 }
 
 .maincontent {
@@ -15,6 +32,8 @@ body {
     margin: 0 auto;
     padding-bottom: 20px;
     border: 1px solid #cccccc;
+    display: flex;
+    align-items: flex-start;
 }
 
 .navbar-brand {
@@ -24,6 +43,8 @@ body {
     padding-bottom: 20px;
     color: #ffffff;
     display: block;
+    width: 300px;
+    float: left;
     font-size: 24pt;
     font-weight: bold;
     padding-right: 25px;
@@ -35,4 +56,6 @@ body {
     width: 100%;
     border-color: #cccccc;
     background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
 }
