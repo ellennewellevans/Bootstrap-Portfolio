@@ -29,6 +29,11 @@ footer {
     padding-bottom: 5px;
 }
 
+.form-group {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 h1 {
     color:#ffffff;
 }
@@ -57,6 +62,12 @@ img {
 }
 
 .maincontent2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media {
+    width: 300px;
     display: flex;
     align-items: flex-start;
 }
