@@ -10,6 +10,16 @@ body {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
 }
 
+.btn-primary {
+    margin-left: 20px;
+    font-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #4aaaa5;
+}
+
 .container {
     width: 100%;
 }
@@ -31,8 +41,7 @@ footer {
 
 .form-group {
     margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 20px;;
 }
 
 h1 {
